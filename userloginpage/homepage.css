@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
+    font-family: 'Bebas Neue', sans-serif; /* Use the correct font family declaration */
+    padding: 0;
+}
+#buttonn1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-right: 3px;
+    font-family: 'Bebas Neue', sans-serif; /* Use the correct font family declaration */
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    height: 25px;
+    transition: .7s;
+    background-color: rgb(195, 0, 255);
+    color: whitesmoke;
+    font-size: 16px;
+
+}
+#buttonn2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-right: 80px;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    height: 25px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 16px;
+    transition: .6s;
+    font-family: 'Bebas Neue', sans-serif; /* Use the correct font family declaration */
+}
+#buttonn2 a, #buttonn1 a{
+    text-decoration: none;
+}
+
+#buttonn2:hover{
+    background-color:rgb(176, 91, 255) ;
+    color: rgb(0, 0, 0);
+
+}
+#buttonn1:hover{
+    background-color:rgb(110, 110, 255);
+    color: black;
+
+}
+
+
+.navbar ul {
+    list-style: none; /* Move this property here */
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: azure;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    padding-inline: 10px; /* Should be padding-right or padding-left, not padding-inline */
+}
+
+.navbar {
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
